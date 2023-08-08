@@ -9,12 +9,14 @@ import IntervalHookCounter from './component/IntervalHookCounter';
 import DataFetching from './component/DataFetching';
 import UsereducerCounter from './component/UsereducerCounter';
 import DataFetchingReducer from './component/DataFetchingReducer';
+import Parent from './component/useCallback/Parent';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <DataFetchingReducer/>
+        <Parent/>
+        {/* <DataFetchingReducer/> */}
         {/* <UsereducerCounter/> */}
         {/* <DataFetching/> */}
         {/* <IntervalHookCounter/> */}
