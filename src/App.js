@@ -10,12 +10,14 @@ import DataFetching from './component/DataFetching';
 import UsereducerCounter from './component/UsereducerCounter';
 import DataFetchingReducer from './component/DataFetchingReducer';
 import Parent from './component/useCallback/Parent';
+import UseMemoCounter from './component/UseMemoCounter';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Parent/>
+        <UseMemoCounter/>
+        {/* <Parent/> */}
         {/* <DataFetchingReducer/> */}
         {/* <UsereducerCounter/> */}
         {/* <DataFetching/> */}
